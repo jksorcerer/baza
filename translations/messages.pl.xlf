@@ -47,19 +47,19 @@
       </trans-unit>
       <trans-unit id="label.date_from">
         <source>label.date_from</source>
-        <target>Początek - data</target>
+        <target>Data rozpoczęcia</target>
       </trans-unit>
       <trans-unit id="label.date_to">
         <source>label.date_to</source>
-        <target>Koniec - data</target>
+        <target>Data zakończenia</target>
       </trans-unit>
       <trans-unit id="label.time_to">
         <source>label.time_to</source>
-        <target>Początek - czas</target>
+        <target>Czas zakończenia</target>
       </trans-unit>
       <trans-unit id="label.time_from">
         <source>label.time_from</source>
-        <target>Koniec - czas</target>
+        <target>Czas rozpoczęcia</target>
       </trans-unit>
       <trans-unit id="title.event_upcoming">
         <source>title.event_upcoming</source>
@@ -183,7 +183,7 @@
       </trans-unit>
       <trans-unit id="title.event_list_all">
         <source>title.event_list_all</source>
-        <target>Lista wszystkich wydarzeń</target>
+        <target>Wszystkie wydarzenia</target>
       </trans-unit>
       <trans-unit id="title.event_delete">
         <source>title.event_delete</source>

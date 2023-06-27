@@ -1,13 +1,19 @@
 body{
-    background-color: #CCCCCC;
+    background-color: #a9babb;
 }
 
 h2{
     width: 60%;
+    color: black
 }
 
+h1{
+    color: black;
+}
+
+
 nav ul{
-    width: 100%;
+    width: 25%;
     display:flex;
     flex-direction: row;
     justify-content:space-evenly;
@@ -17,10 +23,10 @@ nav ul{
 nav ul li{
     padding:5px 5%;
     display:flex;
-    background-color: #2374AB;
+    background-color: #393E46;
     list-style:none;
     border-style: ridge;
-    border-width: 5px;
+    border-width: 0;
     border-radius: 3px;
     border-color: Black;
 }
@@ -31,44 +37,48 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    width: inherit;
-    color: white;
+    width: auto;
+    color: #EEEE;
 }
 
 .events-submenu li{
-    background-color:#660066;
-    border-radius: 20px;
-    border-style: inset;
+    background-color:#393E46;
+    border-radius: 5px;
+    border-style: solid;
 }
 
 thead{
-    background-color: #98FB98;
+    background-color: #393E46;
     opacity: 90%;
 }
 
 thead th a{
-    text-decoration: underline black;
-    color: black;
+    text-decoration: none;
+    color: #EEEE;
 }
 
 tbody{
-    color: #660066;
+    color: #444242;
 }
 
 tbody tr{
-
-    border-color:black;
-    border-width: 5px;
-    border-style:groove;
+    color: #EEEE;
+    border-color:#393E46;
+    border-width: 2px;
+    border-style:solid;
 }
 
 tbody td a{
     text-decoration: none;
-    color: #CCCCCC;
+    color: #393E46;
     margin: 3px;
     padding: 3px;
-    border-radius: 4px;
-    background-color:#5863F8;
+    border-radius: 3px;
+    background-color: #EEEE;
+}
+
+tbody td{
+    color: black;
 }
 
 .date{
@@ -86,15 +96,15 @@ dl dt{
     background-color: #98FB98;
     padding: 3px;
     border-width: 2px;
-    border-color: black;
+    border-color: #EEEE;
     border-top-right-radius: 5px;
 }
 dl dd{
-    background-color: #CFCFCF;
+    background-color: #EEEE;
     padding: 5px;
     border-width: 0 2px 2px 2px;
-    border-style:solid  dotted;
-    border-color: #660066;
+    border-style:solid;
+    border-color: #393E46;
 }
 
 form{
