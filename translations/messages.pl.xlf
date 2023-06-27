@@ -96,7 +96,7 @@
 
       <trans-unit id="title.user_create">
         <source>title.user_create</source>
-        <target>Rejestracja użytkownika</target>
+        <target>Rejestracja</target>
       </trans-unit>
       <trans-unit id="action.user_create">
         <source>action.user_create</source>
@@ -121,6 +121,10 @@
       <trans-unit id="title.account_options">
         <source>title.account_options</source>
         <target>Konto</target>
+      </trans-unit>
+      <trans-unit id="title.user_login">
+        <source>title.user_login</source>
+        <target>Zaloguj się</target>
       </trans-unit>
       <trans-unit id="label.role">
         <source>label.role</source>
@@ -154,6 +158,10 @@
       <trans-unit id="action.register">
         <source>action.register</source>
         <target>Zarejestruj</target>
+      </trans-unit>
+      <trans-unit id="action.first_login">
+        <source>action.first_login</source>
+        <target>Zaloguj</target>
       </trans-unit>
       <trans-unit id="title.clear_filters">
         <source>title.clear_filters</source>
@@ -288,7 +296,7 @@
       </trans-unit>
       <trans-unit id="action.login">
         <source>action.login</source>
-        <target>Powrót do logowania</target>
+        <target>Zaloguj się</target>
       </trans-unit>
       <trans-unit id="action.cancel">
         <source>action.cancel</source>
