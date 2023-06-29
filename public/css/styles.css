@@ -32,7 +32,7 @@ nav ul li{
 }
 
 #admin{
-    background-color: #98FB98;
+    background-color: #EEEE;
 }
 
 nav ul li a{
@@ -93,7 +93,7 @@ dl{
     margin-left: 2%;
 }
 dl dt{
-    background-color: #98FB98;
+    background-color: #fdc007;
     padding: 3px;
     border-width: 2px;
     border-color: #EEEE;

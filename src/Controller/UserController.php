@@ -92,10 +92,26 @@ class UserController extends AbstractController
         requirements: ['id' => '[1-9]\d*'],
         methods: 'GET'
     )]
+
     public function show(User $user): Response
     {
         return $this->render('user/show.html.twig', ['user' => $user]);
     }
+
+
+//    public function show(int $id): Response
+//    {
+//
+//        // Retrieve the User entity using the $id from the database
+//        $user = $this->getDoctrine()->getRepository(User::class)->find($id);
+//
+//        if (!$user) {
+//            throw $this->createNotFoundException('User not found');
+//        }
+//
+//        return $this->render('user/show.html.twig', ['user' => $user]);
+////        return $this->render('user/show.html.twig', ['user' => $user]);
+//    }
 
     /**
      * Create action.

@@ -145,7 +145,7 @@
       </trans-unit>
       <trans-unit id="action.create">
         <source>action.create</source>
-        <target>Dodaj nowe/-y</target>
+        <target>Dodaj nowy</target>
       </trans-unit>
       <trans-unit id="action.delete">
         <source>action.delete</source>
